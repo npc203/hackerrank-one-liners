@@ -1,0 +1,1 @@
+(lambda x,b : print(eval(input()) == b))(*map(int,input().split()))
