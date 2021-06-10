@@ -1,0 +1,1 @@
+print(*__import__("itertools").product(map(int,input().split()),map(int,input().split())))

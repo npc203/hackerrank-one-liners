@@ -1,0 +1,1 @@
+(lambda parse : [print(int(abs((parse(input())-parse(input())).total_seconds()))) for _ in range(int(input()))])(lambda x:__import__("datetime").datetime.strptime(x,"%a %d %b %Y %H:%M:%S %z"))
