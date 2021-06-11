@@ -1,0 +1,1 @@
+(lambda g: (lambda defaultdict: (lambda _:[(lambda tmp: print(*x[tmp]) if tmp in x else print(-1))(input()) for i in range(m)])((lambda _ : [x[input()].append(i+1) for i in range(n)])([None for g['n'],g['m'],g['x'] in [(*map(int, input().split()),defaultdict(list))]])))(__import__("collections").defaultdict))(globals())
