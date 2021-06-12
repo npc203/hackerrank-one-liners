@@ -1,0 +1,1 @@
+(lambda func: (lambda a,b : print(*sorted(list(a.difference(b).union(b.difference(a)))),sep="\n"))(func(),func()))(lambda:(input(),set(map(int,input().split())))[1])
