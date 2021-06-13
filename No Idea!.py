@@ -1,0 +1,1 @@
+(lambda x: (lambda func: (lambda _: (lambda arr: (lambda a,b: print(sum(arr[i] for i in a)-sum(arr[i] for i in b)))(func(),func()))(x.defaultdict(int,x.Counter(func()))))(func()))(lambda:map(int,input().split())))(__import__("collections"))
