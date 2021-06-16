@@ -1,0 +1,1 @@
+(lambda _ : (lambda x: print(set(x[::2]).symmetric_difference(set(x[1::2])).pop()))(sorted(map(int,input().split()))))(input())

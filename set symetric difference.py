@@ -1,0 +1,1 @@
+(lambda _: (lambda a: (lambda _: print(len(a.symmetric_difference(set(map(int,input().split()))))))(input()))(set(map(int,input().split()))))(input()) 

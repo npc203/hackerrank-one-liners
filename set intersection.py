@@ -1,0 +1,1 @@
+(lambda _: (lambda a: (lambda _: print(len(set(map(int,input().split())).intersection(a))) )(input()))(set(map(int,input().split()))))(input()) 

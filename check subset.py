@@ -1,0 +1,1 @@
+[(lambda _: (lambda a: (lambda _: print(not bool(a-set(map(int,input().split())))))(input()))(set(map(int,input().split()))))(input()) for _ in range(int(input()))]

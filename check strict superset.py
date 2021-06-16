@@ -1,0 +1,1 @@
+(lambda a: print(not any(set(map(int,input().split()))-a for i in range(int(input())))))(set(map(int,input().split())))
