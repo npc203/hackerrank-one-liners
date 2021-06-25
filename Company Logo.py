@@ -1,0 +1,1 @@
+[print(i,j) for i,j in sorted(sorted(__import__("collections").Counter(input()).items()),key=lambda x:x[1],reverse=True)[:3]]

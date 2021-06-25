@@ -1,0 +1,1 @@
+(lambda d: (lambda _:print(*d))([(lambda a: getattr(d,a[0])(*map(int,a[1:])))(input().split()) for _ in range(int(input()))]))(__import__("collections").deque())

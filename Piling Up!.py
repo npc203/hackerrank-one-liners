@@ -1,0 +1,1 @@
+[(lambda _ : (lambda a : (lambda x : (lambda l,r : print("YNeos"[not (sorted(l)[::-1] == l and sorted(r) == r)::2]))(a[:x],a[x+1:]))(a.index(min(a))))([*map(int,input().split())]))(input()) for _ in range(int(input()))]

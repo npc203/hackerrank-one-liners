@@ -1,0 +1,1 @@
+print(*map(lambda x:(len(tuple(x[1])),int(x[0])),__import__("itertools").groupby(input())))
