@@ -1,0 +1,1 @@
+(lambda x: print(*map(lambda x:"".join(x),__import__("itertools").permutations(sorted(x[0]),int(x[1]))),sep="\n"))(input().split())

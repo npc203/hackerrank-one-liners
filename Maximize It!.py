@@ -1,0 +1,1 @@
+(lambda k,m : print(max(sum(map(lambda x : x**2,i))%m for i in __import__("itertools").product(*[[*map(int,input().split())][1:] for i in range(k)]))))(*map(int,input().split()))

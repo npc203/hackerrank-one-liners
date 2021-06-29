@@ -1,0 +1,1 @@
+(lambda a : print(abs(a),__import__("cmath").phase(a),sep="\n"))(complex(input()))
