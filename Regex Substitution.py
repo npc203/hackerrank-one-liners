@@ -1,0 +1,1 @@
+(lambda re: print(re.sub(r"(?<= )\|\|(?= )","or",re.sub(r"(?<= )&&(?= )","and",open(0).read().split("\n",1)[1]))))(__import__("re"))

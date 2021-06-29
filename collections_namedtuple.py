@@ -1,0 +1,1 @@
+(lambda n,x : print(sum(int(x(*input().split()).MARKS) for _ in range(n))/n))(int(input()),__import__("collections").namedtuple('a',input()))

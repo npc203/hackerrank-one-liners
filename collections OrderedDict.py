@@ -1,0 +1,1 @@
+(lambda s: (lambda _: print(*map(lambda x:f"{x[0]} {x[1]}",s.items()),sep="\n"))([(lambda a,x: [None for s[a] in [s.get(a,0)+int(x)]])(*input().rsplit(" ",1)) for i in range(int(input()))]))(__import__("collections").OrderedDict())
