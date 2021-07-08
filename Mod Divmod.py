@@ -1,0 +1,1 @@
+(lambda x:print(x[0],x[1],x,sep="\n"))(divmod(*map(int,open(0).read().split("\n"))))

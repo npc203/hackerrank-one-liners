@@ -1,0 +1,1 @@
+(lambda np : print(np.prod(np.sum([list(map(int,input().split())) for i in range(int(input().split()[0]))],axis=0))))(__import__("numpy"))

@@ -1,0 +1,1 @@
+(lambda m: print(f"{round(m.degrees(m.atan2(int(input()),int(input()))))}{chr(176)}"))(__import__("math"))
