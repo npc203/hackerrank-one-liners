@@ -1,0 +1,1 @@
+print(__import__("re").sub("(?<=([A-z0-9]))([^A-z0-9]+)(?=[A-z0-9])"," ",(lambda a: "".join(a[i][j] for j in range(len(a[0])) for i in range(len(a))))(open(0).read().split("\n")[1:])))

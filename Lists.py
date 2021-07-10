@@ -1,0 +1,1 @@
+(lambda a: [(lambda tmp: print(a) if tmp[0]=="print" else getattr(a,tmp[0])(*map(int,tmp[1:])))(input().split()) for  _ in range(int(input()))])([])

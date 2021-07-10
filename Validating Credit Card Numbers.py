@@ -1,0 +1,1 @@
+[print("Valid" if __import__("re").search(r"^(?!.*?(\d)(-?\1){3})[4-6]\d{3}(?:-?\d{4}){3}$",input()) else "Invalid") for i in range(int(input()))]
