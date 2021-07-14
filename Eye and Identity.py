@@ -1,0 +1,1 @@
+(lambda np:(lambda _:print(np.eye(*map(int,input().split()))))(np.set_printoptions(legacy='1.13')))(__import__("numpy"))

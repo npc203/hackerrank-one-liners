@@ -1,0 +1,1 @@
+(lambda numpy: (lambda a: (lambda _: print(numpy.ones(a,dtype = numpy.int)))(print(numpy.zeros(a,dtype = numpy.int))))([*map(int,input().split())]))(__import__("numpy"))
