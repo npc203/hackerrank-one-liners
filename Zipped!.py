@@ -1,0 +1,1 @@
+[print(sum(i)/len(i)) for i in zip(*map(lambda x: [float(o) for o in x.split()],open(0).read().split("\n")[1:]))]

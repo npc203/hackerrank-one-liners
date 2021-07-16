@@ -1,0 +1,1 @@
+[(lambda a,b : print(a,b) if __import__("re").search(r"<[a-zA-Z][\w\-\.]*@[a-zA-Z]*\.[a-zA-Z]{1,3}>",b) else None)(*input().split()) for i in range(int(input()))]

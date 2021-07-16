@@ -1,0 +1,1 @@
+[print("YNEOS"[not __import__("re").search("^[789][0-9]{9}$",input())::2]) for i in range(int(input()))]
