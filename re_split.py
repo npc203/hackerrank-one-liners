@@ -1,0 +1,1 @@
+print("\n".join(__import__.("re").split( r",|\.", input())))

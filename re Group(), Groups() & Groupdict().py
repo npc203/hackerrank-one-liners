@@ -1,0 +1,1 @@
+(lambda x: print(x.groups()[0] if x else -1))(__import__("re").search(r'(?=([A-Za-z0-9])\1)',input()))
