@@ -1,0 +1,1 @@
+(lambda np,n:(lambda a,b:print(a+b,a-b,a*b,a//b,a%b,a**b,sep="\n"))(*(np.array([input().split() for _ in range(n)],int) for _ in range(2))))(__import__("numpy"),int(input().split()[0]))

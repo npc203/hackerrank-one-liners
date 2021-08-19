@@ -1,0 +1,1 @@
+(lambda n,m:(lambda a,k: [print(*i) for i in sorted(a,key=lambda x: x[k])])([[int(i) for i in input().split()] for i in range(n)],int(input())))(*map(int, input().split()))

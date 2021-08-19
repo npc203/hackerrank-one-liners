@@ -1,0 +1,1 @@
+print(*(bool(__import__("re").match(r"^[+-]?\d*\.\d+$",i)) for i in open(0).read().split("\n")[1:]),sep="\n")

@@ -1,0 +1,1 @@
+print(*sorted(input(), key=(__import__("string").ascii_letters + '1357902468').index), sep='')

@@ -1,0 +1,1 @@
+fun = lambda s: __import__("re").match(r"^[\w-]+@[A-Za-z0-9]+\.[a-zA-Z]{1,3}$",s)

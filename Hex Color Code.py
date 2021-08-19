@@ -1,0 +1,1 @@
+print(*__import__("re").findall(r"(?i)(#[0-9a-f]{3,6})[^ \n]",open(0).read().split("\n",1)[1]),sep="\n")
