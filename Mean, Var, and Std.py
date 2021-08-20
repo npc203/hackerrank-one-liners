@@ -1,0 +1,1 @@
+(lambda np:(lambda a:print(np.mean(a,axis=1),np.var(a,axis=0),round(np.std(a),11),sep="\n"))(np.array([np.array(i.split(),float) for i in open(0).read().split("\n")[1:]])))(__import__("numpy"))

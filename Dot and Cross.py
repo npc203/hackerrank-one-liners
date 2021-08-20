@@ -1,0 +1,1 @@
+(lambda np,n:print(np.dot(*([np.array(input().split(),int) for i in range(n)] for j in range(2)))))(__import__("numpy"),int(input()))

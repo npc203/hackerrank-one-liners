@@ -1,0 +1,1 @@
+get_attr_number = lambda node:str(etree.tostring(node)).count('=') #obv removed stub code

@@ -1,0 +1,1 @@
+(lambda np:(lambda a,_:print(np.floor(a),np.ceil(a),np.rint(a),sep="\n"))(np.array(input().split(),float),np.set_printoptions(sign=' ')))(__import__("numpy"))

@@ -1,0 +1,1 @@
+person_lister = lambda f: lambda people:map(f,sorted(people,key=lambda x:int(x[2]))) #obv had some stub code

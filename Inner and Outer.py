@@ -1,0 +1,1 @@
+(lambda np:(lambda a:print(np.inner(*a),np.outer(*a),sep="\n"))([np.array(input().split(),int) for _ in range(2)]))(__import__("numpy"))

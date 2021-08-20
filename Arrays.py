@@ -1,0 +1,1 @@
+arrays = lambda arr: __import__("numpy").array(arr[::-1], float) #Had some stub code

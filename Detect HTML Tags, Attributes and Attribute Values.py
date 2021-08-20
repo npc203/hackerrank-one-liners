@@ -1,0 +1,1 @@
+(lambda HTMLParser:(lambda MyHTMLParser:MyHTMLParser().feed(open(0).read().split("\n",1)[1]))(type("MyHTMLParser",(HTMLParser,),{"handle_starttag":lambda self,tag,attrs:(lambda _:[print('->',ele[0],'>',ele[1]) for ele in attrs])(print (tag))})))(__import__("html.parser").parser.HTMLParser)

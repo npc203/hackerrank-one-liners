@@ -1,0 +1,1 @@
+print(__import__("numpy").array(input().split(),int).reshape(3,3))
